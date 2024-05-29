@@ -24,7 +24,7 @@ Cenário 3: Remoção de conta
 Dado o usuário está logado e na página de configurações da conta
 WHEN ele clica no botão "Deletar Conta"
 AND confirma a deleção na janela de confirmação
-THEN ele deve ver a mensagem "Conta deletada com sucesso"
+THEN ele deve ver a mensagem "Conta deletada com sucesso!"
 AND o usuário deve ser redirecionado para a página inicial
 AND os dados do usuário devem ser removidos do sistema
 
